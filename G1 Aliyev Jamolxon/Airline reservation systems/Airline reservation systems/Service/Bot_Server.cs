@@ -59,7 +59,7 @@ public class Bot_Server
         var postResultContent = await postResult.Content.ReadAsStringAsync();
     }
     
-    static async Task<User> HandleUpdate()
+  public   async Task<User> HandleUpdate()
     {tuda:
           MessageUpdate messageUpdates=await GetUpadatechat();
           
